@@ -76,11 +76,9 @@ export function SocialCard({
             </button>
           </div>
 
-          <p className="text-muted-foreground text-sm mb-4">
-            {content?.text}
-          </p>
+          <p className="text-muted-foreground text-sm mb-4">{content?.text}</p>
         </div>
       </div>
     </div>
   );
-};
+}
