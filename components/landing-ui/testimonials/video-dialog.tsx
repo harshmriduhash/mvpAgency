@@ -165,7 +165,7 @@ export function VideoDialog({
               </motion.button>
               <div className="size-full border-2 border-white rounded-2xl overflow-hidden isolate z-[1] relative">
                 <iframe
-                 title="video player"
+                  title="video player"
                   src={`${videoSrc}?autoplay=1&muted=1`}
                   className="size-full rounded-2xl"
                   allowFullScreen
@@ -178,4 +178,4 @@ export function VideoDialog({
       </AnimatePresence>
     </div>
   );
-};
+}
