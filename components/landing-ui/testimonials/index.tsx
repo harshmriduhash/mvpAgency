@@ -10,7 +10,8 @@ function Testimonials() {
       author: {
         name: "Obafela (Richard) Killa",
         username: "",
-        avatar: "https://gateway.pinata.cloud/ipfs/QmTNWqfDa6pJe55FvC5RzhPjxjtq1WQTuyBAX9m1fGP9jN/obafela.jpeg",
+        avatar:
+          "https://gateway.pinata.cloud/ipfs/QmTNWqfDa6pJe55FvC5RzhPjxjtq1WQTuyBAX9m1fGP9jN/obafela.jpeg",
         title: "Founder and CEO at NexusData Intelligence",
         href: "https://www.linkedin.com/in/obafelakilla",
       },
@@ -23,16 +24,21 @@ function Testimonials() {
   const videos = [
     {
       id: 1,
-      videoSrc: "https://gateway.pinata.cloud/ipfs/QmTNWqfDa6pJe55FvC5RzhPjxjtq1WQTuyBAX9m1fGP9jN/victor_onyekere.mp4",
-      videoText: "When you work with Shola, you're going to get a bankable and sellable product.",
-      thumbnailSrc: "https://gateway.pinata.cloud/ipfs/QmTNWqfDa6pJe55FvC5RzhPjxjtq1WQTuyBAX9m1fGP9jN/victor_onyekere.jpeg",
+      videoSrc:
+        "https://gateway.pinata.cloud/ipfs/QmTNWqfDa6pJe55FvC5RzhPjxjtq1WQTuyBAX9m1fGP9jN/victor_onyekere.mp4",
+      videoText:
+        "When you work with harsh, you're going to get a bankable and sellable product.",
+      thumbnailSrc:
+        "https://gateway.pinata.cloud/ipfs/QmTNWqfDa6pJe55FvC5RzhPjxjtq1WQTuyBAX9m1fGP9jN/victor_onyekere.jpeg",
       thumbnailAlt: "Victor Onyekere",
     },
     {
       id: 2,
-      videoSrc: "https://gateway.pinata.cloud/ipfs/QmTNWqfDa6pJe55FvC5RzhPjxjtq1WQTuyBAX9m1fGP9jN/toluwase-review.mp4",
-      videoText: "Within 1 week, we had a prototype that we could test out.",
-      thumbnailSrc: "https://gateway.pinata.cloud/ipfs/QmTNWqfDa6pJe55FvC5RzhPjxjtq1WQTuyBAX9m1fGP9jN/toluwase-2.jpeg",
+      videoSrc:
+        "https://gateway.pinata.cloud/ipfs/QmTNWqfDa6pJe55FvC5RzhPjxjtq1WQTuyBAX9m1fGP9jN/toluwase-review.mp4",
+      videoText: "Within 3 weeks, we had a prototype that we could test out.",
+      thumbnailSrc:
+        "https://gateway.pinata.cloud/ipfs/QmTNWqfDa6pJe55FvC5RzhPjxjtq1WQTuyBAX9m1fGP9jN/toluwase-2.jpeg",
       thumbnailAlt: "Toluwase Olugbemiro",
     },
   ];
