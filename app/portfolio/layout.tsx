@@ -5,7 +5,7 @@ import { FadeIn } from "@/components/landing-ui/fade-in";
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://www.nextmvp.tech/portfolio`
-  : "http://localhost:3000/portfolio"
+  : "http://localhost:3000/portfolio";
 
 export const metadata: Metadata = {
   metadataBase: new URL(defaultUrl),
@@ -49,9 +49,9 @@ export default function WorksLayout({
     <main>
       <FadeIn>
         <Header />
-          {children}
+        {children}
         <Footer />
       </FadeIn>
     </main>
   );
-};
+}
