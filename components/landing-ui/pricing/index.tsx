@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import { Zap } from "lucide-react"
-import { PricingSection } from "./pricing-section"
+import { Zap } from "lucide-react";
+import { PricingSection } from "./pricing-section";
 
 const defaultTiers = [
   {
@@ -9,7 +9,8 @@ const defaultTiers = [
     price: {
       monthly: 1999,
     },
-    description: "Perfect for founders who need a fast, functional MVP to test and validate their idea quickly.",
+    description:
+      "Perfect for founders who need a fast, functional MVP to test and validate their idea quickly.",
     icon: (
       <div className="relative">
         <div className="absolute inset-0 bg-gradient-to-r from-gray-500/30 to-gray-500/30 blur-2xl rounded-full" />
@@ -19,35 +20,40 @@ const defaultTiers = [
     features: [
       {
         name: "Development",
-        description: "We’ll build your web app, landing page, and integrate essential feedback tools to gather insights.",
+        description:
+          "We’ll build your web app, landing page, and integrate essential feedback tools to gather insights.",
         included: true,
       },
       {
         name: "Integrations",
-        description: "Seamless setups for payments, authentication, databases, and analytics, so your MVP works smoothly.",
+        description:
+          "Seamless setups for payments, authentication, databases, and analytics, so your MVP works smoothly.",
         included: true,
       },
       {
         name: "SEO",
-        description: "We’ll optimize your MVP for search engines to help it get noticed and rank higher.",
+        description:
+          "We’ll optimize your MVP for search engines to help it get noticed and rank higher.",
         included: true,
       },
       {
         name: "Production",
-        description: "Setup and deployment, ensuring your MVP is live and ready for users.",
+        description:
+          "Setup and deployment, ensuring your MVP is live and ready for users.",
         included: true,
       },
       {
         name: "Scalability Built In",
-        description: "Our MVPs are designed with growth in mind. As your business evolves, your MVP will be able to scale with it.",
+        description:
+          "Our MVPs are designed with growth in mind. As your business evolves, your MVP will be able to scale with it.",
         included: true,
       },
     ],
   },
-]
+];
 
 function Pricing() {
-  return <PricingSection tiers={defaultTiers} />
+  return <PricingSection tiers={defaultTiers} />;
 }
 
-export { Pricing }
+export { Pricing };
