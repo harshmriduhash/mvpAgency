@@ -33,7 +33,7 @@ const defaultTiers = [
       {
         name: "SEO",
         description:
-          "We’ll optimize your MVP for search engines to help it get noticed and rank higher.",
+          "We’ll obviously optimize your MVP for search engines to help it get noticed and rank higher.",
         included: true,
       },
       {
