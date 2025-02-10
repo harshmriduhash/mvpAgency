@@ -1,12 +1,12 @@
-"use client"
+"use client";
 
-import { useEffect, useState } from "react"
-import Image, { ImageProps } from "next/image"
-import placeholderImg from "@/assets/placeholder.png"
+import { useEffect, useState } from "react";
+import Image, { ImageProps } from "next/image";
+import placeholderImg from "@/assets/placeholder.png";
 
 interface ImageWithFallbackProps extends Omit<ImageProps, "src"> {
-  fallback?: string
-  src: string
+  fallback?: string;
+  src: string;
 }
 
 export const ImageWithFallback: React.FC<ImageWithFallbackProps> = ({
@@ -15,11 +15,11 @@ export const ImageWithFallback: React.FC<ImageWithFallbackProps> = ({
   src,
   ...props
 }) => {
-  const [error, setError] = useState<boolean>(false)
+  const [error, setError] = useState<boolean>(false);
 
   useEffect(() => {
-    setError(false)
-  }, [src])
+    setError(false);
+  }, [src]);
 
   return (
     <Image
@@ -28,5 +28,5 @@ export const ImageWithFallback: React.FC<ImageWithFallbackProps> = ({
       src={error ? fallback : src}
       {...props}
     />
-  )
-}
+  );
+};
