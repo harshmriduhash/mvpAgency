@@ -8,15 +8,15 @@ function Testimonials() {
     {
       id: 2,
       author: {
-        name: "Obafela (Richard) Killa",
+        name: "Abhiraj singh",
         username: "",
         avatar:
           "https://gateway.pinata.cloud/ipfs/QmTNWqfDa6pJe55FvC5RzhPjxjtq1WQTuyBAX9m1fGP9jN/obafela.jpeg",
-        title: "Founder and CEO at NexusData Intelligence",
-        href: "https://www.linkedin.com/in/obafelakilla",
+        title: "Founder of GROOTIN",
+        href: "https://in.linkedin.com/in/abhirajssingh",
       },
       content: {
-        text: "“NextMVP, founded by genius Shola Jegede is definitely one to go for. Shola has helped countless founders with their products and startups. As I write this, he is currently consulting on my MVP as well. If you’re looking to get your MVP out there, NextMVP is the agency to work with!👍💯”",
+        text: "“NextMVP, founded by Harsh is definitely one to go for. Harsh has helped countless founders with their products and startups. As I write this, he is currently consulting on my MVP as well. If you’re looking to get your MVP out there, NextMVP is the agency to work with!👍💯”",
       },
     },
   ];
