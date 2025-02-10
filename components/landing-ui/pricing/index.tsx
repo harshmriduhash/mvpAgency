@@ -18,11 +18,6 @@ const defaultTiers = [
     ),
     features: [
       {
-        name: "Design",
-        description: "We’ll bring your design to life. No design yet? We’ll help you create one that stands out.",
-        included: true,
-      },
-      {
         name: "Development",
         description: "We’ll build your web app, landing page, and integrate essential feedback tools to gather insights.",
         included: true,
@@ -42,18 +37,11 @@ const defaultTiers = [
         description: "Setup and deployment, ensuring your MVP is live and ready for users.",
         included: true,
       },
-      /** 
       {
         name: "Scalability Built In",
         description: "Our MVPs are designed with growth in mind. As your business evolves, your MVP will be able to scale with it.",
         included: true,
       },
-      {
-        name: "Expert Consultation",
-        description: "Need guidance on your MVP strategy? We offer free consultations to help you validate your idea and plan your next steps.",
-        included: true,
-      },
-      */
     ],
   },
 ]
