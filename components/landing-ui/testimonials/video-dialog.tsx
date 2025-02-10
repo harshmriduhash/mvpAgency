@@ -103,7 +103,7 @@ export function VideoDialog({
             </div>
             {/**
             <a
-              href="https://linkedin.com/in/victoronyekere"
+              href="https://in.linkedin.com/in/abhirajssingh"
               target="_blank"
               rel="noopener"
               className="cursor-pointer rounded-full transition-colors"

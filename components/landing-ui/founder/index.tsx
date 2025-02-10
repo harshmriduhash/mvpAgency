@@ -63,7 +63,7 @@ function Founder() {
                 </Link>
               </DockIcon>
               <DockIcon>
-                <Link href="https://www.linkedin.com/in/sholajegede" target="_blank">
+                <Link href="https://www.linkedin.com/in/harsh-bestmerndev/" target="_blank">
                   <Icons.linkedin className="size-6" />
                 </Link>
               </DockIcon>
