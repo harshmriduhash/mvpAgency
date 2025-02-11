@@ -42,7 +42,11 @@ export function CTA() {
           { left: 88, top: 198 },
           { at: "+0.5", duration: 0.5, ease: "easeInOut" },
         ],
-        ["#marketplace-platforms", { opacity: 0.4 }, { at: "-0.3", duration: 0.1 }],
+        [
+          "#marketplace-platforms",
+          { opacity: 0.4 },
+          { at: "-0.3", duration: 0.1 },
+        ],
         ["#internal-tools", { opacity: 1 }, { duration: 0.3 }],
         [
           "#pointer",
@@ -138,7 +142,9 @@ export function CTA() {
                       </h3>
                     </div>
                     <p className="mb-4 text-muted-foreground">
-                      You'll receive a response within 12 - 24 hours of booking. If your idea is a good fit, we'll schedule a call to discuss the details and work process.
+                      You'll receive a response within 12 - 24 hours of booking.
+                      If your idea is a good fit, we'll schedule a call to
+                      discuss the details and work process.
                     </p>
                     <div className="flex flex-wrap gap-2">
                       <Button
@@ -161,4 +167,4 @@ export function CTA() {
       </HighlightGroup>
     </section>
   );
-};
+}
