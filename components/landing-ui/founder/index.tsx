@@ -63,7 +63,10 @@ function Founder() {
                 </Link>
               </DockIcon>
               <DockIcon>
-                <Link href="https://www.linkedin.com/in/harsh-bestmerndev/" target="_blank">
+                <Link
+                  href="https://www.linkedin.com/in/harsh-bestmerndev/"
+                  target="_blank"
+                >
                   <Icons.linkedin className="size-6" />
                 </Link>
               </DockIcon>
@@ -71,13 +74,19 @@ function Founder() {
           </div>
           <div className="space-y-4 mx-auto w-full items-center mt-4 sm:mt-10">
             <p>
-              Hey, I’m Harsh. I’ve spent years building products and leading engineering teams in other startups, so I know what it takes to make products succeed.
+              Hey, I’m Harsh. I’ve spent years building products and leading
+              engineering teams in other startups, so I know what it takes to
+              make products succeed.
             </p>
             <p>
-              I’ve launched a bunch of successful MVPs, and now I want to help you do the same.
+              I’ve launched a bunch of successful MVPs, and now I want to help
+              you do the same.
             </p>
             <p>
-              At NextMVP, we’re all about helping entrepreneurs like you bring your ideas to life quickly and smoothly. You’ve got the vision, we’ve got the skills to help you make it into something people want.
+              At NextMVP, we’re all about helping entrepreneurs like you bring
+              your ideas to life quickly and smoothly. You’ve got the vision,
+              we’ve got the skills to help you make it into something people
+              want.
             </p>
           </div>
         </div>
