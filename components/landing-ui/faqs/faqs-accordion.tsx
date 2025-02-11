@@ -47,7 +47,7 @@ export function FaqAccordion({
       >
         {data.map((item) => {
           // Default to "left" if iconPosition is not provided
-          const iconPosition = item.iconPosition || "left"; 
+          const iconPosition = item.iconPosition || "left";
 
           return (
             <Accordion.Item
@@ -73,7 +73,10 @@ export function FaqAccordion({
                           iconPosition === "right" ? "right-0" : "left-0"
                         )}
                         style={{
-                          transform: iconPosition === "right" ? "rotate(7deg)" : "rotate(-4deg)",
+                          transform:
+                            iconPosition === "right"
+                              ? "rotate(7deg)"
+                              : "rotate(-4deg)",
                         }}
                       >
                         {item.icon}
@@ -99,7 +102,9 @@ export function FaqAccordion({
               <Accordion.Content asChild forceMount>
                 <motion.div
                   initial="collapsed"
-                  animate={openItem === item.id.toString() ? "open" : "collapsed"}
+                  animate={
+                    openItem === item.id.toString() ? "open" : "collapsed"
+                  }
                   variants={{
                     open: { opacity: 1, height: "auto" },
                     collapsed: { opacity: 0, height: 0 },
