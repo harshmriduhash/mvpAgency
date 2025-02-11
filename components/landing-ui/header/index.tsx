@@ -18,12 +18,12 @@ import { ModeToggle } from "@/app/providers";
 import { getCalApi } from "@calcom/embed-react";
 
 function Header() {
-  useEffect(()=>{
-	  (async function () {
-		const cal = await getCalApi({"namespace":"discovery-call"});
-		cal("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
-	  })();
-	}, [])
+  useEffect(() => {
+    (async function () {
+      const cal = await getCalApi({ namespace: "discovery-call" });
+      cal("ui", { hideEventTypeDetails: false, layout: "month_view" });
+    })();
+  }, []);
 
   const navigationItems = [
     {
@@ -72,7 +72,13 @@ function Header() {
                               {item.description}
                             </p>
                           </div>
-                          <Button size="sm" className="mt-10" data-cal-namespace="discovery-call" data-cal-link="nextmvp/discovery-call" data-cal-config='{"layout":"month_view"}'>
+                          <Button
+                            size="sm"
+                            className="mt-10"
+                            data-cal-namespace="discovery-call"
+                            data-cal-link="nextmvp/discovery-call"
+                            data-cal-config='{"layout":"month_view"}'
+                          >
                             Book a call
                           </Button>
                         </div>
@@ -107,7 +113,11 @@ function Header() {
               View portfolio
             </Button>
           </Link>
-          <Button data-cal-namespace="discovery-call" data-cal-link="nextmvp/discovery-call" data-cal-config='{"layout":"month_view"}'>
+          <Button
+            data-cal-namespace="discovery-call"
+            data-cal-link="nextmvp/discovery-call"
+            data-cal-config='{"layout":"month_view"}'
+          >
             Book a call
           </Button>
         </div>
