@@ -12,4 +12,4 @@ export function NextMVPLogo() {
       />
     </Link>
   );
-};
+}
