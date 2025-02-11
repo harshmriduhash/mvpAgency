@@ -11,4 +11,4 @@ export function PortfolioHero() {
       </div>
     </div>
   );
-};
+}
