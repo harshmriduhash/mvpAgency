@@ -22,25 +22,7 @@ function Testimonials() {
   ];
 
   const videos = [
-    {
-      id: 1,
-      videoSrc:
-        "https://gateway.pinata.cloud/ipfs/QmTNWqfDa6pJe55FvC5RzhPjxjtq1WQTuyBAX9m1fGP9jN/victor_onyekere.mp4",
-      videoText:
-        "When you work with harsh, you're going to get a bankable and sellable product.",
-      thumbnailSrc:
-        "https://gateway.pinata.cloud/ipfs/QmTNWqfDa6pJe55FvC5RzhPjxjtq1WQTuyBAX9m1fGP9jN/victor_onyekere.jpeg",
-      thumbnailAlt: "Victor Onyekere",
-    },
-    {
-      id: 2,
-      videoSrc:
-        "https://gateway.pinata.cloud/ipfs/QmTNWqfDa6pJe55FvC5RzhPjxjtq1WQTuyBAX9m1fGP9jN/toluwase-review.mp4",
-      videoText: "Within 3 weeks, we had a prototype that we could test out.",
-      thumbnailSrc:
-        "https://gateway.pinata.cloud/ipfs/QmTNWqfDa6pJe55FvC5RzhPjxjtq1WQTuyBAX9m1fGP9jN/toluwase-2.jpeg",
-      thumbnailAlt: "Toluwase Olugbemiro",
-    },
+
   ];
 
   const handleAction = (href: string) => {
