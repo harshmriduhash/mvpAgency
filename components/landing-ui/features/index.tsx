@@ -12,9 +12,9 @@ function Feature() {
               Got an idea? Let’s make it into something people want
             </h2>
           </div>
-           <div className="w-full">
-                <SectionWithHover />
-            </div>
+          <div className="w-full">
+            <SectionWithHover />
+          </div>
         </div>
       </div>
     </div>
