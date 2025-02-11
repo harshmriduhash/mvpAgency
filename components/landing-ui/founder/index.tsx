@@ -58,7 +58,7 @@ function Founder() {
           <div className="w-full">
             <Dock direction="middle">
               <DockIcon>
-                <Link href="https://x.com/wani_shola" target="_blank">
+                <Link href="https://x.com/IntrovertCoderr" target="_blank">
                   <Icons.twitter className="size-6" />
                 </Link>
               </DockIcon>
