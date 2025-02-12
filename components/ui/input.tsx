@@ -1,6 +1,6 @@
-import * as React from "react"
+import * as React from "react";
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 
 function SearchIcon(props: any) {
   return (
@@ -21,13 +21,13 @@ function SearchIcon(props: any) {
         strokeLinejoin="round"
       />
     </svg>
-  )
+  );
 }
 
 export interface InputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
-  hasIcon?: boolean
-  onKeyDown?: (event: React.KeyboardEvent<HTMLInputElement>) => void
+  hasIcon?: boolean;
+  onKeyDown?: (event: React.KeyboardEvent<HTMLInputElement>) => void;
 }
 
 const Input = React.forwardRef<HTMLInputElement, InputProps>(
@@ -51,10 +51,10 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
           {...props}
         />
       </div>
-    )
+    );
   }
-)
-Input.displayName = "Input"
+);
+Input.displayName = "Input";
 
 const InputButton = React.forwardRef<HTMLInputElement, InputProps>(
   ({ className, hasIcon, children, ...props }, ref) => {
@@ -93,9 +93,9 @@ const InputButton = React.forwardRef<HTMLInputElement, InputProps>(
         </div>
         {children}
       </div>
-    )
+    );
   }
-)
-InputButton.displayName = "InputButton"
+);
+InputButton.displayName = "InputButton";
 
-export { Input, InputButton }
+export { Input, InputButton };
